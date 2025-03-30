@@ -1,34 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Clock Widget</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background: #ffffff;
-      font-family: Arial, sans-serif;
-    }
-    #clock {
-      font-size: 60px;
-      color: #4FB5CF;
-    }
-  </style>
-</head>
-<body>
-  <div id="clock">--:--:--</div>
-  <script>
-    function updateClock() {
-      const now = new Date();
-      const timeString = now.toLocaleTimeString();
-      document.getElementById('clock').textContent = timeString;
-    }
-    setInterval(updateClock, 1000);
-    updateClock();
-  </script>
-</body>
+  <head>
+    <title>Hello Test</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+  </body>
 </html>
